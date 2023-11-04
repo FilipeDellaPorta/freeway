@@ -141,8 +141,8 @@
   right: 0;
   bottom: 0;
   width: 0;
-  height: calc(100vh - 90px);
   padding: 0;
+  height: calc(100vh - 90px);
   background-color: var(--cor-primaria);
   z-index: 1000;
   transition: all 0.3s ease-in-out;
