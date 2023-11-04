@@ -140,6 +140,7 @@
   position: fixed;
   right: 0;
   bottom: 0;
+  /* aqui que estava o problema do toggle no padding e width de aparecer no primeiro carregamento*/
   width: 0;
   padding: 0;
   height: calc(100vh - 90px);
