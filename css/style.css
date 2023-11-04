@@ -94,6 +94,7 @@
   }
   .principal__conteudo__links__botao:hover {
     background-color: var(--cor-quartenaria);
+    font-weight: var(--fonte-peso-pesada);
   }
   .rodape {
     background-color: var(--cor-quartenaria);
