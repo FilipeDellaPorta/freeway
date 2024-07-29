@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     z-index: 1000;
   }
+
   .cabecalho__menu__toggle {
     position: fixed;
     right: 0;
@@ -20,14 +21,17 @@
     background-size: 50%;
     cursor: pointer;
   }
+
   .cabecalho__menu__toggle:hover {
     opacity: 0.5;
   }
+
   .cabecalho__menu ul ol a{
     display: block;
     height: 100%;
     padding: 0 10px;
   }
+  
    .cabecalho__menu__sidebar {
     position: fixed;
     right: 0;

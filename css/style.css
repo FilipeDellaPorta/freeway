@@ -7,10 +7,6 @@
   --preto-suave: #1E1E24;
 }
 
-  canvas {
-    display: block;
-  }
-  
   body {
     height: 100vh;
     background-color: var(--cinza-escuro);
@@ -19,11 +15,6 @@
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--bege-claro);
-  }
-
-  .cabecalho {
-    display: flex;
-    justify-content: flex-end;
   }
  
   .cabecalho__menu__link {
@@ -37,22 +28,10 @@
   }
 
   .titulo {
-    padding: 0 0 2% 0;
     color: var(--cinza-medio);
     font-family: 'Satisfy', sans-serif;
     font-weight: 400;
     font-size: 3rem;
-    justify-self: center;
-  }
-
-  .container {
-    display: flex;
-    padding: 0 2%;
-    gap: 2%;
-  }
-
-  .container__secao__paragrafo {
-    padding: 2% 0 0 0; 
   }
 
   .container__secao__paragrafo-destaque {
@@ -60,23 +39,10 @@
     font-weight: bold;
   }
 
-  .container__secao__div{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
   .container__secao__link  {
-    display: flex;
     border: 0.1rem solid var(--bege-claro);
     border-radius: 1rem;
-    width: 10rem;
-    text-align: center;
-    text-decoration: none;
     color: var(--bege-claro);
-    align-items: center;
-    justify-content: space-around;
-    padding: 1rem;
   }
 
   .container__secao__link:hover {
@@ -86,9 +52,6 @@
 
   .rodape {
     background-color: var(--preto-suave);
-    margin: 2% 0 0 0;
-    padding: 2% 0 2% 0;
-    text-align: center;
     font-weight: bold;
   }
  
