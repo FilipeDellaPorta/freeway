@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/toggle.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Freeway</title>
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <div class="cabecalho__menu__toggle" onclick="toggleNav()"></div>
+            <div class="cabecalho__menu-toggle" onclick="toggleNav()"></div>
         </nav>
-            <aside class="cabecalho__menu__toggle__sidebar">
+            <aside class="cabecalho__menu-sidebar">
                 <ul>
-                     <ol><a class="cabecalho__menu__link" href="https://portfolio-drab-theta.vercel.app/index.html">Home</a></li>
-                        <ol><a class="cabecalho__menu__link" href="https://certificados-two.vercel.app/">Certificados</a></li>
+                     <ol><a class="cabecalho__menu-link" href="https://portfolio-drab-theta.vercel.app/index.html">Home</a></li>
+                        <ol><a class="cabecalho__menu-link" href="https://certificados-two.vercel.app/">Certificados</a></li>
                 </ul>
         </aside>
     </header>
     <h1 class="titulo">Freeway: Edição da Vaquinha</h1>
-    <main class="principal">
-        <section class="principal__conteudo">
-                <div class="principal__conteudo__texto">
-                    <p class="principal__conteudo__texto__paragrafo">Para mover o personagem utilize as setas <strong class="principal__conteudo__texto__paragrafo__destaque">↑ ↓ ← →</strong> ou as teclas <strong class="principal__conteudo__texto__paragrafo__destaque">WASD</strong>.</p>
+    <main class="container">
+        <section class="container__secao">
+                <div class="container__secao__div">
+                    <p class="container__secao__paragrafo">Para mover o personagem utilize as setas <strong class="container__secao__paragrafo-destaque">↑ ↓ ← →</strong> ou as teclas <strong class="container__secao__paragrafo-destaque">WASD</strong>.</p>
                 </div>
-                    <div class="principal__conteudo__links">
-                        <p class="principal__conteudo__texto__paragrafo">Acesse minhas redes:</p>
-                        <a class="principal__conteudo__links__botao" href="https://www.linkedin.com/in/filipe-della-porta/"><img src="./assets/images/linkedin.png" alt="logo do LinkedIn">LinkedIn</a>
-                        <a class="principal__conteudo__links__botao" href="https://github.com/FilipeDellaPorta"> <img src="./assets/images/github.png" alt="logo do GitHub">GitHub</a>
+                    <div class="container__secao__div">
+                        <p class="container__secao__paragrafo">Acesse minhas redes:</p>
+                        <a class="container__secao__link" href="https://www.linkedin.com/in/filipe-della-porta/"><img src="./assets/images/linkedin.png" alt="logo do LinkedIn">LinkedIn</a>
+                        <a class="container__secao__link" href="https://github.com/FilipeDellaPorta"> <img src="./assets/images/github.png" alt="logo do GitHub">GitHub</a>
                 </div>
             </section>
     </main>
@@ -37,7 +39,7 @@
         <p class="rodape__paragrafo">Desenvolvido por Filipe Della Porta</p>
     </footer>
 </body>
-    <script src="./js/menu.js"></script>
+    <script src="./js/toggle.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/assets.js"></script>
     <script src="./js/carro.js"></script>
