@@ -1,0 +1,41 @@
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .titulo {
+    justify-self: center;
+    padding: 0 0 2% 0;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 2%;
+    row-gap: 2%;
+  }
+
+  .container__secao__paragrafo {
+    padding: 2% 0 0 0; 
+  }
+
+  .container__secao__div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .container__secao__link {
+    display: flex;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  .rodape {
+    margin: 2% 0 0 0;
+    padding: 2% 0 2% 0;
+    text-align: center;
+  }
