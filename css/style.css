@@ -27,6 +27,7 @@
   }
  
   .cabecalho__menu__link {
+    font-weight: bold;
     color: var(--bege-claro);
     text-decoration: none;
   }
